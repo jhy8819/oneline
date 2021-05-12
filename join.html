@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>회원가입</title>
+</head>
+<body>
+	<form method="post" action="join_proc.jsp">
+		<h1> 회원가입 </h1>
+		<label for ="uid">이름</label><br>
+		<input type="text" name="uid"><br>
+		
+		
+		<label for ="umail">이메일</label><br>
+		<input type="email" name="umail"><br>
+		
+		<label for ="pwd1">비밀번호</label><br>
+		<input type="password" name="pwd1" placeholder="비밀번호를 입력하세요."><br>
+		
+		<label for="birth">생년월일</label><br>
+		<input type="date" name="birth" placeholder="8자리로 입력하세요."><br>
+		
+		성별
+		<input type="radio" name="gender" value="남">
+		<label for="gender">남</label>
+		<input type="radio" name="gender" value="여">
+		<label for="gender">여</label>
+		<br>
+		<input type="submit" value="가입완료">
+		
+</form>
+
+</body>
+</html>
